@@ -20,7 +20,7 @@ BACKUP_MAX_PAST_BACKUPS_ON_BUCKET = int(
     os.getenv("BACKUP_MAX_PAST_BACKUPS_ON_BUCKET", "3"))
 BACKUP_EXPORTER_PROMETHEUS_PUSH_GATEWAY_URI = os.getenv(
     "BACKUP_EXPORTER_PROMETHEUS_PUSH_GATEWAY_URI",
-    "https://prometheus.pushgateway.rafael.network")
+    "")
 
 
 def validate_environment_variables():
