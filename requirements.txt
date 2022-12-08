@@ -2,7 +2,7 @@ appnope==0.1.0
 backcall==0.1.0
 boto3==1.9.193
 botocore==1.12.193
-certifi==2019.6.16
+certifi==2022.12.7
 console-progressbar==1.1.1
 decorator==4.4.0
 docutils==0.14
